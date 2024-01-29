@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@700&family=Source+Sans+3:wght@400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.center {
+  text-align: center;
+  background-color: #FBF8F8;
+  padding: 90px 0px;
+}
+
+.hero-main {
+  max-width: 70%;
+  margin: auto;
+}
+
+.hero-main>img {
+  width: 15%;
+  border-radius: 50%;
+  border: 2px solid #FA588A;
+}
+
+.hero-main h1 {
+  font-family: 'Saira', sans-serif;
+  font-size: 60px;
+  line-height: 72px;
+  color: #18181b;
+}
+
+.web-hero {
+  color: #f9004d !important;
+}
+
+.hero-main p {
+  font-size: 15px;
+  line-height: 23px;
+  color: #646464;
+  font-family: 'Source Sans 3', sans-serif;
+  margin-top: 23px;
+}
+
+.social-link a>i {
+  color: #646464;
+  background-color: #EBEBEB;
+  border-radius: 50%;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.social-link a>i:hover {
+  background-color: #f9004d;
+  color: white;
+  transition: all 0.5 sec ease-in;
+}
+
+.contact-me {
+  background-color: #f9004d !important;
+  box-shadow: none !important;
+  border: none !important;
+  margin-top: 27px;
+  padding: 13px 35px !important;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+
+.contact-me:hover {
+  background-color: #18181b !important;
+
+}
+
+.all-project {
+  background-color: transparent !important;
+  margin: 30px 0px;
+  font-family: Saira, sans-serif;
+  font-size: 50px;
+  line-height: 60px;
+  Color: #18181b;
+}
+
+.card-title {
+  font-family: Saira, sans-serif;
+  font-size: 24px;
+  line-height: 29px;
+  Color: #000000;
+  margin-top: 20px;
+}
+
+.card-content {
+  font-weight: "Open Sans", sans-serif;
+  font-size: 15px;
+  color: #f9004d;
+  line-height: 23px;
+}
+
+.card-title a {
+  background-color: #f9004d;
+  color: white;
+  float: right;
+  padding: 3px 10px;
+  border-radius: 50px;
+  font-size: 15px;
+  margin-top: 8px;
+}
+
+.sliders {
+  background-image: url("https://pungent-react.envytheme.com/images/feedback-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.bg-next {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+}
+
+.ready-work {
+  font-family: Saira, sans-serif;
+  font-size: 70px;
+  line-height: 84px;
+  color: white;
+  max-width: 78% ;
+  margin: auto;
+}
+
+.contact {
+  background-color: white !important;
+  color: #f9004d !important;
+  padding: 15px 45px !important;
+  border: none !important;
+  margin-top: 40px !important;
+}
+
+.contact:hover {
+  background-color: #000000 !important;
+  color: white !important;
+  transition: all 0.5 sec ease-in;
+}
+
+.change-started {
+  font-size: 15px !important;
+}
+
+.change-work {
+  font-size: 40px !important;
+  text-align: center;
+  line-height: 48px !important;
+  max-width: 65%;
+  margin: auto;
+}
+
+.containerStyle {
+  background-image: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  height: 100%;
+  width: 100%;
+  margin-top: 100px;
+  padding: 80px 0;
+  text-align: center;
+  opacity: .9;
+  background-attachment: fixed;
+}
+
+.changecontainerStyle {
+  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00) !important;
+  opacity: .95 !important;
+  padding: 0px !important;
+
+}
+.email-main{
+  max-width: 60%;
+  margin: auto;
+    margin-top: 40px;
+}
+.form-control{
+  border-radius: 30px 0px 0px 30px!important;
+  padding: 15px !important;
+  
+}
+.input-button{
+  background: linear-gradient(to left top,#ff2c9c,#ff287b,#ff395a,#ff5137,#ff6a00) ;
+  color: white !important;
+  border: none !important;
+  border-radius: 0px 30px 30px 0px!important;
+  padding: 15px 30px !important;
+  font-family: "Open Sans", sans-serif !important;
+}
